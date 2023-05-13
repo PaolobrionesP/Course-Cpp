@@ -1,4 +1,9 @@
 /*-- Colaboracion --  es cuando una clase contiene un objeto de otra clase como atributo.*/
+////////////////////////////////////////////////////////////////////////////////////////////////
+/*Si tenemos una ClaseA y otra ClaseB y notamos que entre ellas existe una relación de tipo "... tiene un...", no debe implementarse herencia sino declarar en la clase ClaseA un atributo de la clase ClaseB.
+
+Por ejemplo: tenemos una clase Auto, una clase Rueda y una clase Volante. Vemos que la relación entre ellas es: Auto "...tiene 4..." Rueda, Volante "...es parte de..." Auto; pero la clase Auto no debe derivar de Rueda ni Volante de Auto porque la relación no es de tipo-subtipo sino de colaboración. Debemos declarar en la clase Auto 4 atributos de tipo Rueda y 1 de tipo Volante.*/
+
 
 /*Problema 1:
 =================================================
