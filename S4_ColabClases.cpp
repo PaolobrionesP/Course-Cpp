@@ -1,3 +1,5 @@
+/*-- Colaboracion --  es cuando una clase contiene un objeto de otra clase como atributo.*/
+
 /*Problema 1:
 =================================================
 Un banco tiene 3 clientes que pueden hacer depósitos y extracciones. También el banco requiere que al final del día calcule la cantidad de dinero que hay depositada. 
