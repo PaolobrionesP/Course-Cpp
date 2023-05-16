@@ -1,1 +1,5 @@
-S5_Herencia.exe
+
+.vscode
+
+# User-specific files
+*.exe
